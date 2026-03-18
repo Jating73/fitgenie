@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-display: 'Bebas Neue', cursive;
+    --font-sans: 'DM Sans', sans-serif;
+  }
+
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #e63946 #111;
+  }
+
+  ::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #111;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #e63946;
+    border-radius: 2px;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .font-display {
+    font-family: var(--font-display);
+    letter-spacing: 0.05em;
+  }
+
+  .card {
+    @apply bg-dark-800 border border-dark-400 rounded-xl;
+  }
+
+  .card-hover {
+    @apply card transition-all duration-200 hover:border-brand-red/40 hover:-translate-y-0.5;
+  }
+
+  .badge {
+    @apply text-[10px] font-semibold tracking-wide px-2 py-0.5 rounded;
+  }
+
+  .badge-beginner {
+    @apply badge bg-brand-green/15 text-brand-green;
+  }
+
+  .badge-intermediate {
+    @apply badge bg-yellow-400/15 text-yellow-400;
+  }
+
+  .badge-advanced {
+    @apply badge bg-brand-red/15 text-brand-red;
+  }
+
+  .badge-equipment {
+    @apply badge bg-dark-700 text-gray-400 border border-dark-300;
+  }
+
+  .btn-primary {
+    @apply bg-brand-red text-white font-semibold px-6 py-3 rounded-xl
+           hover:bg-brand-red2 transition-all duration-200
+           hover:-translate-y-0.5 hover:shadow-lg hover:shadow-brand-red/30
+           active:scale-95 cursor-pointer inline-flex items-center gap-2;
+  }
+
+  .btn-secondary {
+    @apply bg-dark-700 text-white border border-dark-300 font-medium px-6 py-3 rounded-xl
+           hover:bg-dark-600 transition-all duration-200 hover:-translate-y-0.5 cursor-pointer;
+  }
+
+  .input-field {
+    @apply bg-dark-700 border border-dark-400 text-white rounded-lg px-4 py-2.5
+           font-sans text-sm placeholder-gray-600 focus:outline-none focus:border-brand-red
+           transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply font-display text-3xl tracking-widest text-white;
+  }
+
+  .section-sub {
+    @apply text-gray-500 text-sm mt-1 mb-5;
+  }
+
+  .tag-upper  { @apply text-brand-red  bg-brand-red/15; }
+  .tag-lower  { @apply text-brand-green bg-brand-green/10; }
+  .tag-core   { @apply text-brand-accent bg-brand-accent/15; }
+  .tag-cardio { @apply text-blue-400 bg-blue-400/15; }
+
+  .page-enter {
+    animation: fadeUp 0.35s ease forwards;
+  }
+}
