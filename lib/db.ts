@@ -231,7 +231,7 @@ export async function fetchMeasurementHistory(
         .order('recorded_at', { ascending: true })
         .limit(limit)
     if (error || !data) return []
-    return data.map((r) => ({ date: r.recorded_at.slice(0, 10), value: r[field] as number }))
+    return data.map((r) => ({ date: r.recorded_at.slice(0, 10), value: (r as Record<string, number>)[field] as number }))
 }
 
 export async function insertMeasurement(
