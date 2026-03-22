@@ -3,6 +3,8 @@ import { Bebas_Neue, DM_Sans } from 'next/font/google'
 import './globals.css'
 import { Navbar } from '@/components/layout/Navbar'
 import { MobileNav } from '@/components/layout/MobileNav'
+import { AuthProvider } from '@/lib/auth'
+import { AuthModal } from '@/components/auth/AuthModal'
 
 const bebasNeue = Bebas_Neue({
   weight: '400',
@@ -25,11 +27,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${bebasNeue.variable} ${dmSans.variable}`}>
       <body className="bg-dark-900 text-white min-h-screen font-sans antialiased">
-        <Navbar />
-        <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-24 md:pb-8 pt-6">
-          {children}
-        </main>
-        <MobileNav />
+        <AuthProvider>
+          <Navbar />
+          <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-24 md:pb-8 pt-6">
+            {children}
+          </main>
+          <MobileNav />
+          <AuthModal />
+        </AuthProvider>
       </body>
     </html>
   )

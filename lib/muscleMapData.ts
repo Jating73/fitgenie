@@ -1,5 +1,4 @@
 /**
- * lib/muscleMapData.ts
  *
  * Provides:
  *  – MUSCLE_DETAILS   : top-level → sub-muscle hierarchy with accent colours
@@ -14,7 +13,7 @@
 import type { Exercise, MuscleDetail } from '@/types'
 
 // ─────────────────────────────────────────────────────────────────────────────
-// 1.  SUB-MUSCLE HIERARCHY
+// SUB-MUSCLE HIERARCHY
 // ─────────────────────────────────────────────────────────────────────────────
 
 export const MUSCLE_DETAILS: MuscleDetail[] = [
@@ -118,17 +117,6 @@ export const MUSCLE_DETAILS: MuscleDetail[] = [
     ],
   },
 ]
-
-// ─────────────────────────────────────────────────────────────────────────────
-// 2.  GIF-ENRICHED EXERCISE DATA
-//
-//  gifUrl sources (all public / no auth):
-//   • v2.exercisedb.io   — real exercise DB GIF CDN
-//   • media.giphy.com    — widely-mirrored fitness GIFs
-//
-//  primaryMuscle uses the sub-muscle names defined above so the panel can
-//  filter exercises per sub-muscle chip selection.
-// ─────────────────────────────────────────────────────────────────────────────
 
 export const MAP_EXERCISES: Exercise[] = [
   // ── CHEST ──────────────────────────────────────────────────────────────────
@@ -754,7 +742,7 @@ export const MAP_EXERCISES: Exercise[] = [
 ]
 
 // ─────────────────────────────────────────────────────────────────────────────
-// 3.  LOOKUP HELPERS
+// LOOKUP HELPERS
 // ─────────────────────────────────────────────────────────────────────────────
 
 /** Return the MuscleDetail for a given top-level SVG key (e.g. "Chest"). */

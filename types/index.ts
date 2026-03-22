@@ -10,9 +10,59 @@ export interface Exercise {
   mistakes: string[]
   tips: string[]
   gifUrl?: string
-  primaryMuscle?: string
+  primaryMuscle?: string,
+  youtubeUrl?: string
 }
 
+// ─────────────────────────────────────────────────────────────────────────────
+// Auth & per-user data
+// ─────────────────────────────────────────────────────────────────────────────
+
+export interface User {
+  id: string
+  name: string
+  email: string
+  createdAt: string
+  avatar?: string
+}
+
+/** One logged exercise set stored per-user in localStorage */
+export interface UserWorkoutLog {
+  id: string
+  userId: string
+  ex: string
+  muscle: string
+  sets: number
+  reps: number
+  weight: number
+  date: string
+}
+
+/** Strength personal records stored per-user */
+export interface UserPRData {
+  userId: string
+  bench: number
+  squat: number
+  dl: number
+  ohp: number
+}
+
+/** Body measurements stored per-user */
+export interface UserMeasurements {
+  userId: string
+  weight: number
+  chest: number
+  waist: number
+  arms: number
+}
+
+export interface AuthState {
+  user: User | null
+  isLoading: boolean
+}
+
+
+// --------------- Muscle Map hierarchy ---------------
 export interface SubMuscle {
   name: string
   desc: string

@@ -4,8 +4,8 @@
 
 @layer base {
   :root {
-    --font-display: 'Bebas Neue', cursive;
-    --font-sans: 'DM Sans', sans-serif;
+    --font-display: "Bebas Neue", cursive;
+    --font-sans: "DM Sans", sans-serif;
   }
 
   * {
@@ -91,12 +91,32 @@
     @apply text-gray-500 text-sm mt-1 mb-5;
   }
 
-  .tag-upper  { @apply text-brand-red  bg-brand-red/15; }
-  .tag-lower  { @apply text-brand-green bg-brand-green/10; }
-  .tag-core   { @apply text-brand-accent bg-brand-accent/15; }
-  .tag-cardio { @apply text-blue-400 bg-blue-400/15; }
+  .tag-upper {
+    @apply text-brand-red  bg-brand-red/15;
+  }
+  .tag-lower {
+    @apply text-brand-green bg-brand-green/10;
+  }
+  .tag-core {
+    @apply text-brand-accent bg-brand-accent/15;
+  }
+  .tag-cardio {
+    @apply text-blue-400 bg-blue-400/15;
+  }
 
   .page-enter {
     animation: fadeUp 0.35s ease forwards;
+  }
+}
+
+/* Bar-pulse animation for no-video placeholder */
+@keyframes barPulse {
+  from {
+    opacity: 0.3;
+    transform: scaleY(0.6);
+  }
+  to {
+    opacity: 0.9;
+    transform: scaleY(1);
   }
 }

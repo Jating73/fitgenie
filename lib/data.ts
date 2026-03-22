@@ -41,6 +41,7 @@ export const EXERCISES: Exercise[] = [
       'Keep your shoulder blades retracted.',
       'Control the negative portion of the movement.',
     ],
+    youtubeUrl: 'https://www.youtube.com/shorts/WbCEvFA0NJs',
   },
   {
     name: 'Chest Dips',
@@ -63,6 +64,7 @@ export const EXERCISES: Exercise[] = [
     tips: [
       'Leaning forward targets the chest more.',
     ],
+    youtubeUrl: "https://www.youtube.com/shorts/eicOUO9WaJc",
   },
   {
     name: 'Decline Bench Press',
@@ -83,6 +85,7 @@ export const EXERCISES: Exercise[] = [
     tips: [
       'Keep elbows at about 45 degrees.',
     ],
+    youtubeUrl: "https://www.youtube.com/shorts/zUWQG9iWqC4"
   },
   {
     name: 'Seated Cable Row',
@@ -104,6 +107,7 @@ export const EXERCISES: Exercise[] = [
     tips: [
       'Keep chest up during the movement.',
     ],
+    youtubeUrl: "https://www.youtube.com/shorts/8QuMq1GMMng"
   },
   {
     name: 'T-Bar Row',
@@ -124,6 +128,7 @@ export const EXERCISES: Exercise[] = [
     tips: [
       'Focus on squeezing shoulder blades.',
     ],
+    youtubeUrl: "https://www.youtube.com/shorts/ZbOUxXRS42s"
   },
   {
     name: 'Face Pull',
@@ -144,6 +149,7 @@ export const EXERCISES: Exercise[] = [
     tips: [
       'Focus on rear delt contraction.',
     ],
+    youtubeUrl: "https://www.youtube.com/shorts/IeOqdw9WI90"
   },
   {
     name: 'Rear Delt Fly',
@@ -164,6 +170,7 @@ export const EXERCISES: Exercise[] = [
     tips: [
       'Keep movement slow and controlled.',
     ],
+    youtubeUrl: "https://www.youtube.com/shorts/7tgx6QHB0-A"
   },
   {
     name: 'Arnold Press',
@@ -184,6 +191,7 @@ export const EXERCISES: Exercise[] = [
     tips: [
       'Control the rotation.',
     ],
+    youtubeUrl: "https://www.youtube.com/shorts/6K_N9AGhItQ"
   },
   {
     name: 'Hammer Curl',
@@ -204,6 +212,7 @@ export const EXERCISES: Exercise[] = [
     tips: [
       'Keep elbows tight to sides.',
     ],
+    youtubeUrl: "https://www.youtube.com/shorts/VuEclXR7sZY"
   },
   {
     name: 'Concentration Curl',
@@ -223,6 +232,7 @@ export const EXERCISES: Exercise[] = [
     tips: [
       'Focus on peak contraction.',
     ],
+    youtubeUrl: "https://www.youtube.com/shorts/I_bKCYL2nL8"
   },
   {
     name: 'Close Grip Bench Press',
@@ -243,6 +253,7 @@ export const EXERCISES: Exercise[] = [
     tips: [
       'Keep elbows close to body.',
     ],
+    youtubeUrl: "https://www.youtube.com/shorts/cSwXfeCc9_E"
   },
   {
     name: 'Overhead Tricep Extension',
@@ -263,6 +274,7 @@ export const EXERCISES: Exercise[] = [
     tips: [
       'Keep elbows pointing forward.',
     ],
+    youtubeUrl: "https://www.youtube.com/shorts/NTk0Igxqcsk"
   },
   {
     name: 'Walking Lunges',
@@ -283,6 +295,7 @@ export const EXERCISES: Exercise[] = [
     tips: [
       'Keep torso upright.',
     ],
+    youtubeUrl: "https://www.youtube.com/shorts/2ea3_b9rFdM"
   },
   {
     name: 'Bulgarian Split Squat',
@@ -303,6 +316,7 @@ export const EXERCISES: Exercise[] = [
     tips: [
       'Keep chest upright.',
     ],
+    youtubeUrl: "https://www.youtube.com/shorts/or1frhkjBDc"
   },
   {
     name: 'Leg Curl',
@@ -323,6 +337,7 @@ export const EXERCISES: Exercise[] = [
     tips: [
       'Pause at top for contraction.',
     ],
+    youtubeUrl: "https://www.youtube.com/shorts/_lgE0gPvbik"
   },
   {
     name: 'Leg Extension',
@@ -343,6 +358,7 @@ export const EXERCISES: Exercise[] = [
     tips: [
       'Control the descent.',
     ],
+    youtubeUrl: "https://www.youtube.com/shorts/uM86QE59Tgc"
   },
   {
     name: 'Hanging Leg Raise',
@@ -363,6 +379,7 @@ export const EXERCISES: Exercise[] = [
     tips: [
       'Control movement using abs.',
     ],
+    youtubeUrl: "https://www.youtube.com/shorts/KDbFKEScp1M"
   },
   {
     name: 'Russian Twist',
@@ -382,6 +399,7 @@ export const EXERCISES: Exercise[] = [
     tips: [
       'Keep core tight.',
     ],
+    youtubeUrl: "https://www.youtube.com/shorts/aRUMRbl7KS4"
   },
   {
     name: 'Jump Rope',
@@ -401,6 +419,7 @@ export const EXERCISES: Exercise[] = [
     tips: [
       'Keep jumps small and quick.',
     ],
+    youtubeUrl: "https://www.youtube.com/shorts/geAiKq9PPKM"
   },
   {
     name: 'Cycling',
@@ -420,6 +439,7 @@ export const EXERCISES: Exercise[] = [
     tips: [
       'Maintain consistent cadence.',
     ],
+    youtubeUrl: "https://www.youtube.com/shorts/dieOsJlsvpM"
   },
   {
     name: 'Barbell Bench Press', muscle: 'Chest', secondary: ['Triceps', 'Shoulders'],
@@ -443,6 +463,7 @@ export const EXERCISES: Exercise[] = [
       'Drive through heels for leg drive to improve stability and power.',
       'Keep wrists straight — never let them bend backward under load.',
     ],
+    youtubeUrl: "https://www.youtube.com/shorts/XjrsqShr-Ic"
   },
   {
     name: 'Incline Dumbbell Press', muscle: 'Chest', secondary: ['Triceps', 'Front Delts'],
@@ -463,6 +484,7 @@ export const EXERCISES: Exercise[] = [
       'Use a slight inner rotation of the wrist at peak contraction.',
       '30° incline targets upper chest better than 45° — experiment to find your sweet spot.',
     ],
+    youtubeUrl: "https://www.youtube.com/shorts/8fXfwG4ftaQ"
   },
   {
     name: 'Cable Fly', muscle: 'Chest', secondary: ['Front Delts'],
@@ -484,6 +506,7 @@ export const EXERCISES: Exercise[] = [
       'Adjust pulley height to target different chest regions.',
       'Keep a slight forward lean for better leverage and chest activation.',
     ],
+    youtubeUrl: "https://www.youtube.com/shorts/EOKbusjoNtM"
   },
   {
     name: 'Push-Up', muscle: 'Chest', secondary: ['Triceps', 'Shoulders', 'Core'],
@@ -504,6 +527,7 @@ export const EXERCISES: Exercise[] = [
       'Elevate feet for upper chest emphasis.',
       'Slow the eccentric (3 seconds down) for more difficulty and muscle damage.',
     ],
+    youtubeUrl: "https://www.youtube.com/shorts/4Bc1tPaYkOo"
   },
   {
     name: 'Pull-Up', muscle: 'Back', secondary: ['Biceps', 'Rear Delts'],
@@ -524,6 +548,7 @@ export const EXERCISES: Exercise[] = [
       'Imagine bending the bar towards you to engage the lats more.',
       'Practice scapular pull-ups to build the foundation before full reps.',
     ],
+    youtubeUrl: "https://www.youtube.com/shorts/ym1V5H35IpA"
   },
   {
     name: 'Barbell Row', muscle: 'Back', secondary: ['Biceps', 'Rear Delts', 'Traps'],
@@ -545,6 +570,7 @@ export const EXERCISES: Exercise[] = [
       'Squeeze the back muscles and hold for 1 second at the top.',
       'Film yourself from the side to check your torso angle.',
     ],
+    youtubeUrl: "https://www.youtube.com/shorts/phVtqawIgbk"
   },
   {
     name: 'Lat Pulldown', muscle: 'Back', secondary: ['Biceps', 'Rear Delts'],
@@ -566,6 +592,7 @@ export const EXERCISES: Exercise[] = [
       'Overhand grip targets lats more; underhand targets lower lats and biceps.',
       'Keep the chest tall and proud throughout the set.',
     ],
+    youtubeUrl: "http://youtube.com/shorts/2ea3_b9rFdM"
   },
   {
     name: 'Deadlift', muscle: 'Back', secondary: ['Glutes', 'Hamstrings', 'Traps', 'Forearms'],
@@ -589,6 +616,7 @@ export const EXERCISES: Exercise[] = [
       'Use mixed grip or hook grip for heavier weights.',
       'Push your belly into an imaginary belt to create intra-abdominal pressure.',
     ],
+    youtubeUrl: "https://www.youtube.com/shorts/xNwpvDuZJ3k"
   },
   {
     name: 'Overhead Press', muscle: 'Shoulders', secondary: ['Triceps', 'Upper Chest'],
@@ -610,6 +638,7 @@ export const EXERCISES: Exercise[] = [
       'Start with elbows at 45° before the press — not flared wide.',
       'The bar should track slightly back as it clears the top of your head.',
     ],
+    youtubeUrl: "https://www.youtube.com/shorts/zoN5EH50Dro"
   },
   {
     name: 'Lateral Raise', muscle: 'Shoulders', secondary: ['Traps'],
@@ -630,6 +659,7 @@ export const EXERCISES: Exercise[] = [
       'Cable lateral raises provide constant tension throughout the range.',
       '2–3 second eccentric for maximum growth stimulus.',
     ],
+    youtubeUrl: "https://www.youtube.com/shorts/Kl3LEzQ5Zqs"
   },
   {
     name: 'Barbell Curl', muscle: 'Biceps', secondary: ['Forearms'],
@@ -651,6 +681,7 @@ export const EXERCISES: Exercise[] = [
       'The EZ-bar version is easier on the wrists for many people.',
       'Slow the negative for more muscle damage and growth stimulus.',
     ],
+    youtubeUrl: "https://www.youtube.com/shorts/ez3YoWf62Eg"
   },
   {
     name: 'Incline Dumbbell Curl', muscle: 'Biceps', secondary: ['Forearms'],
@@ -669,6 +700,7 @@ export const EXERCISES: Exercise[] = [
       'The stretched position provides a unique mechanical advantage for growth.',
       'Great for targeting the long head of the biceps specifically.',
     ],
+    youtubeUrl: "https://www.youtube.com/shorts/fXFN8_1Bh6k"
   },
   {
     name: 'Tricep Pushdown', muscle: 'Triceps', secondary: [],
@@ -689,6 +721,7 @@ export const EXERCISES: Exercise[] = [
       'Lean slightly forward for better stability.',
       'Overhand grip targets the lateral head; underhand targets the long head.',
     ],
+    youtubeUrl: "https://www.youtube.com/shorts/1FjkhpZsaxc"
   },
   {
     name: 'Skull Crushers', muscle: 'Triceps', secondary: ['Chest'],
@@ -707,6 +740,7 @@ export const EXERCISES: Exercise[] = [
       'Add a slight shoulder stretch at the bottom for long head emphasis.',
       'Use an EZ-bar to reduce wrist strain significantly.',
     ],
+    youtubeUrl: "https://www.youtube.com/shorts/K3mFeNz4e3w"
   },
   {
     name: 'Squat', muscle: 'Quads', secondary: ['Glutes', 'Hamstrings', 'Core'],
@@ -729,6 +763,7 @@ export const EXERCISES: Exercise[] = [
       'Think "sit between the heels" not "sit back onto heels".',
       'Goblet squat is a great learning tool before loading a barbell.',
     ],
+    youtubeUrl: "https://www.youtube.com/shorts/dW3zj79xfrc"
   },
   {
     name: 'Leg Press', muscle: 'Quads', secondary: ['Glutes', 'Hamstrings'],
@@ -748,6 +783,7 @@ export const EXERCISES: Exercise[] = [
       'Higher foot placement shifts the emphasis to the glutes.',
       'Toes pointed slightly outward targets the inner quad (VMO).',
     ],
+    youtubeUrl: "https://www.youtube.com/shorts/BnacvXdaxq8"
   },
   {
     name: 'Romanian Deadlift', muscle: 'Hamstrings', secondary: ['Glutes', 'Lower Back'],
